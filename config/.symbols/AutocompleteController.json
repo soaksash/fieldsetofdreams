@@ -1,0 +1,103 @@
+{
+    "properties": [
+        {
+            "modifiers": [], 
+            "name": "content", 
+            "visibility": "PRIVATE", 
+            "references": [], 
+            "location": {
+                "column": 24, 
+                "line": 3
+            }, 
+            "type": "LIST"
+        }
+    ], 
+    "externalReferences": [], 
+    "innerClasses": [], 
+    "interfaces": [], 
+    "constructors": [
+        {
+            "modifiers": [], 
+            "name": "AutocompleteController", 
+            "parameters": [], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 9, 
+                "line": 5
+            }, 
+            "type": null
+        }
+    ], 
+    "namespace": null, 
+    "name": "AutocompleteController", 
+    "tableDeclaration": {
+        "type": "AutocompleteController", 
+        "modifiers": [], 
+        "references": [], 
+        "location": {
+            "column": 27, 
+            "line": 1
+        }, 
+        "name": "AutocompleteController"
+    }, 
+    "key": "01p90000005ZPWPAA4", 
+    "variables": [
+        {
+            "type": "String", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 10, 
+                "line": 6
+            }, 
+            "name": "term"
+        }, 
+        {
+            "type": "String", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 16, 
+                "line": 14
+            }, 
+            "name": "jsonString"
+        }, 
+        {
+            "type": "JSONGenerator", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 23, 
+                "line": 15
+            }, 
+            "name": "gen"
+        }, 
+        {
+            "type": "SObject", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 25, 
+                "line": 20
+            }, 
+            "name": "item"
+        }
+    ], 
+    "id": "01p90000005ZPWPAA4", 
+    "methods": [
+        {
+            "modifiers": [], 
+            "name": "getJSONContent", 
+            "parameters": [], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 16, 
+                "line": 12
+            }, 
+            "returnType": "String", 
+            "type": null
+        }
+    ]
+}

@@ -1,0 +1,111 @@
+{
+    "properties": [
+        {
+            "modifiers": [], 
+            "name": "mySubscription", 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 25, 
+                "line": 3
+            }, 
+            "type": "Subscription__c"
+        }, 
+        {
+            "modifiers": [], 
+            "name": "fieldset", 
+            "visibility": "PRIVATE", 
+            "references": [], 
+            "location": {
+                "column": 20, 
+                "line": 4
+            }, 
+            "type": "String"
+        }, 
+        {
+            "modifiers": [], 
+            "name": "recordTypeId", 
+            "visibility": "PRIVATE", 
+            "references": [], 
+            "location": {
+                "column": 16, 
+                "line": 5
+            }, 
+            "type": "Id"
+        }, 
+        {
+            "modifiers": [], 
+            "name": "recordTypeName", 
+            "visibility": "PRIVATE", 
+            "references": [], 
+            "location": {
+                "column": 20, 
+                "line": 6
+            }, 
+            "type": "String"
+        }
+    ], 
+    "externalReferences": [], 
+    "innerClasses": [], 
+    "interfaces": [], 
+    "constructors": [
+        {
+            "modifiers": [], 
+            "name": "NewSubscription_Extension", 
+            "parameters": [
+                {
+                    "type": "StandardController", 
+                    "name": "stdController"
+                }
+            ], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 12, 
+                "line": 10
+            }, 
+            "type": null
+        }
+    ], 
+    "namespace": null, 
+    "name": "NewSubscription_Extension", 
+    "tableDeclaration": {
+        "type": "NewSubscription_Extension", 
+        "modifiers": [], 
+        "references": [], 
+        "location": {
+            "column": 27, 
+            "line": 1
+        }, 
+        "name": "NewSubscription_Extension"
+    }, 
+    "key": "01p90000005ZPM8AAO", 
+    "variables": [
+        {
+            "type": "StandardController", 
+            "modifiers": [], 
+            "references": [], 
+            "location": {
+                "column": 67, 
+                "line": 10
+            }, 
+            "name": "stdController"
+        }
+    ], 
+    "id": "01p90000005ZPM8AAO", 
+    "methods": [
+        {
+            "modifiers": [], 
+            "name": "getSubscriptionFieldSet", 
+            "parameters": [], 
+            "visibility": "PUBLIC", 
+            "references": [], 
+            "location": {
+                "column": 40, 
+                "line": 15
+            }, 
+            "returnType": "LIST", 
+            "type": null
+        }
+    ]
+}

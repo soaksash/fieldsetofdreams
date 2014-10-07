@@ -1,0 +1,19 @@
+{
+    "username": "edward@mojo.com", 
+    "project_name": "Dreamforce", 
+    "org_url": "", 
+    "namespace": "", 
+    "metadata_container": "1dc90000000QOdNAAW", 
+    "environment": "developer", 
+    "workspace": "/Users/edwardencarnacion/Documents/workspaces", 
+    "id": "TR9ONOSHA3ENJ7L655WWMUNKJFMTQXMS", 
+    "subscription": [
+        "ApexClass", 
+        "ApexComponent", 
+        "ApexPage", 
+        "ApexTrigger", 
+        "StaticResource", 
+        "CustomObject", 
+        "Profile"
+    ]
+}
